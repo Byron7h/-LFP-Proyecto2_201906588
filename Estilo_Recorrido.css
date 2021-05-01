@@ -1,0 +1,155 @@
+:root {
+    --X-imagen: 5%;
+    --Y-imagen:0%;  
+  }
+  
+  
+  * {
+    margin: 0px auto;
+    padding: 0px;
+    text-align: center;
+  }
+  
+  .cont_principal {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+  }
+  
+  h2 {
+    font-weight: 200;
+    font-family: 'Roboto';
+    color: #444;
+
+  }
+  p {
+    font-family: 'Roboto';
+    color: #777;
+    margin-bottom: 20px;
+  font-weight: 300;
+  } 
+  
+  
+  .cont_imgs {
+    position: relative;
+    float: left;
+    width: 100%;
+  padding-bottom:50px;
+  
+  }
+  
+  
+  .clear_fix {
+    position: relative;
+    float: left;
+    width: 100% !important;
+  
+  }
+  
+  div[data-shx-size='1'] { 
+    --Y-imagen:10%;  
+  }
+  
+  div[data-shx-size='1']:after { 
+    top: var(--Y-imagen); 
+    -webkit-filter: blur(15px);
+      filter: blur(15px);
+  
+  }
+  
+  div[data-shx-size='2'] {
+  margin-bottom: 12px !important;
+  --Y-imagen:12%;
+  }
+  
+  div[data-shx-size='2']:after {
+    top: var(--Y-imagen); 
+       -webkit-filter: blur(15px);
+      filter: blur(15px);
+  
+  
+  }
+  
+  div[data-shx-size='3'] {
+  margin-bottom: 17px !important;
+  --Y-imagen:13%;
+  }
+  div[data-shx-size='3']:after {
+    top: var(--Y-imagen); 
+       -webkit-filter: blur(25px);
+      filter: blur(25px);
+  
+  
+  }
+  
+  div[data-shx-size='4'] {
+  margin-bottom: 20px !important;
+  --Y-imagen:18px;
+  }
+  
+  div[data-shx-size='4']:after {
+    top: var(--Y-imagen);
+       -webkit-filter: blur(20px);
+      filter: blur(20px);
+  }
+  
+  
+  div[data-shx-size='5'] {
+  margin-bottom: 28px !important;
+  --Y-imagen:26px;
+  }
+  
+  div[data-shx-size='5']:after {
+    top: var(--Y-imagen);
+       -webkit-filter: blur(32px);
+      filter: blur(30px);
+  
+  
+  }
+  
+  
+  div[data-shx-size='6'] {
+  margin-bottom: 42px !important;
+    --Y-imagen:40px;
+  }
+  div[data-shx-size='6']:after {
+        top: var(--Y-imagen);
+       -webkit-filter: blur(30px);
+      filter: blur(30px);
+  
+  }
+   
+  
+  
+    .cont_imgs  img{
+  width: 100%;
+  z-index: 1;
+  border-radius:2px;
+  }
+   
+   
+  
+  .cont_imgs > div {
+  position: relative;  
+  width: 600px;
+    margin: 10% auto;
+  margin-top: 0px;
+  }
+  
+  .btn_link {
+      position: relative;
+      width: 120px;
+      padding: 10px;
+      background: #03A9F4;
+      box-shadow: 1px 5px 15px -2px rgba(0,0,0,0.2);
+      color: #fff;
+      text-decoration: none;
+      border-radius: 2px;
+    display: block;
+  }
+  ._trs,._trs:after {
+  transition: all 250ms;  
+  } 
+  
+  
+  
